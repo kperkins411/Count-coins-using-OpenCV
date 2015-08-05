@@ -23,7 +23,7 @@ class Application(Frame):
         self.entry_file_name = Entry(self)
         self.entry_file_name.insert(0,self.str_filename)
         self.entry_file_name.grid(row=1,column=1,columnspan=3,sticky=W)
-        #this is a comment
+        #this is a commentbbb
         #and another
         #create a file find button
         self.find_file_button=Button(self,text="...",command = self.find_file)
